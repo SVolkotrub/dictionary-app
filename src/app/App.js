@@ -1,6 +1,6 @@
-import logo from "./images/Book_Lover.png";
+import logo from "../images/Book_Lover.png";
 import './App.css';
-import Dictionary from "./Dictionary";
+import Dictionary from "../Dictionary";
 
 function App() {
   return (
