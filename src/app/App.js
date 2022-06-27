@@ -9,7 +9,7 @@ function App() {
         <header className="App-header">
         <img src={logo} alt="logo" className="App-logo img-fluid" />
         </header>
-        <main>
+        <main className="container main">
           <Dictionary />
         </main>
         <footer className="App-footer">Coded by Svitlana Volkotrub</footer>

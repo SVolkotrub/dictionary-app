@@ -16,7 +16,6 @@ export default function Dictionary() {
         })
     }
     function handleResponse(response) {
-        console.log(response.data[0]);
         setResults(response.data[0]);
         
     }
@@ -25,8 +24,9 @@ export default function Dictionary() {
     }
     return (
         <div className="Dictionary">
-            <form onSubmit={search}>
+            <form className="search-form mb-5" onSubmit={search}>
                 <input type="search" autoFocus={true} onChange={handleKeywordChange} />
+                <button className="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
             <Results results={results} />
         </div>);

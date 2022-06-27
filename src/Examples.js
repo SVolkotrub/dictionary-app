@@ -1,5 +1,5 @@
 export default function Examples(props) {
-    console.log(props.definition);
+    
     if (props.definition.hasOwnProperty("example")) { 
     return (
         <p>
