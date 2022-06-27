@@ -1,0 +1,8 @@
+.synonyms {
+    opacity: 0.8;
+    display: list-item;
+    margin-left: 30px;
+}
+.header-synonyms {
+    color: #3b3566;
+}

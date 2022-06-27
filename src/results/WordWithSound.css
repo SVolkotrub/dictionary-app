@@ -1,0 +1,9 @@
+.word {
+    font-weight: 600;
+    color: #3b3566;
+    
+}
+@media (max-width:767px) {
+    .word
+   { text-align: left;}
+}

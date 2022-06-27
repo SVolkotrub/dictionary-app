@@ -1,3 +1,30 @@
 .Dictionary{
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.Dictionary section {
+    background-color: #f5f5f5;
+    border-radius: 6px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 7px 4px 30px rgba(0, 0, 0, 0.2); */
+    margin: 15px 0;
+    padding: 15px 40px;
+}
+.Dictionary input {
+    width: 60%;
+    border-radius: 5px;   
+    border: 1px solid grey;
+}
+@media (max-width: 960px) {
+    .Dictionary input{
+        width: 80%;
+
+    }
+    .Dictionary form {
+        margin: 0;
+        }
+   .Dictionary section {
+    padding: 15px 15px;
+   }
 }
